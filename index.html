@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta -->
+  <title>Rony's Fried Chicken – Ayam Crispy Renyah, Gurih, dan Terjangkau</title>
+  <meta name="description" content="Rony's Fried Chicken menyajikan ayam goreng crispy dengan bumbu khas, selalu fresh, harga terjangkau. Cocok untuk seluruh keluarga. Pesan sekarang!" />
+  <meta name="keywords" content="ayam crispy, fried chicken, rony's, makanan keluarga, ayam goreng, bandung" />
+  <meta name="author" content="Rony's Fried Chicken" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ronysfriedchicken.id/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ronysfriedchicken.id/" />
+  <meta property="og:title" content="Rony's Fried Chicken – Ayam Crispy Renyah, Gurih, dan Terjangkau" />
+  <meta property="og:description" content="Nikmati kelezatan Rony's Fried Chicken dengan cita rasa spesial untuk seluruh keluarga." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1562967914-608f82629710?w=1200&h=630&fit=crop" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:site_name" content="Rony's Fried Chicken" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rony's Fried Chicken" />
+  <meta name="twitter:description" content="Ayam Crispy Renyah, Gurih, dan Terjangkau" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1562967914-608f82629710?w=1200&h=630&fit=crop" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FastFoodRestaurant",
+    "name": "Rony's Fried Chicken",
+    "description": "Ayam goreng crispy dengan bumbu khas, selalu fresh, harga terjangkau untuk seluruh keluarga.",
+    "url": "https://ronysfriedchicken.id",
+    "telephone": "+628522244425",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Raya Padalarang No. 123",
+      "addressLocality": "Bandung",
+      "addressRegion": "Jawa Barat",
+      "postalCode": "40553",
+      "addressCountry": "ID"
+    },
+    "openingHours": "Mo-Su 09:00-22:00",
+    "servesCuisine": "Fried Chicken",
+    "priceRange": "Rp 5.000 – Rp 85.000",
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&h=600&fit=crop"
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader-wrap">
+      <div class="loader-logo">🍗</div>
+      <div class="loader-name">Rony's Fried Chicken</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/628522244425?text=Halo%20Rony's%2C%20saya%20mau%20pesan..." 
+     class="wa-float" target="_blank" rel="noopener" title="Chat WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Chat WhatsApp</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" title="Kembali ke atas">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">🍗</span>
+        <span class="logo-text">Rony's <em>Fried Chicken</em></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="#testimonial">Testimoni</a></li>
+        <li><a href="#location">Lokasi</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="#admin" class="nav-admin-btn"><i class="fas fa-cog"></i> Admin</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button id="dark-mode-toggle" title="Toggle Dark Mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="menu-toggle" title="Buka Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=1920&h=1080&fit=crop" 
+           alt="Ayam Crispy Rony's Fried Chicken" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content" data-animate="fade-up">
+      <div class="hero-badge">
+        <i class="fas fa-fire"></i> Hot & Crispy
+      </div>
+      <h1 class="hero-title">
+        Ayam Crispy<br/>
+        <span class="hero-accent">Renyah, Gurih,</span><br/>
+        & Terjangkau
+      </h1>
+      <p class="hero-subtitle">
+        Nikmati kelezatan Rony's Fried Chicken dengan cita rasa spesial<br class="d-none d-md-block"/>
+        untuk seluruh keluarga.
+      </p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-primary">
+          <i class="fas fa-utensils"></i> Lihat Menu
+        </a>
+        <a href="https://wa.me/628522244425?text=Halo%20Rony's%2C%20saya%20mau%20pesan..." 
+           class="btn btn-secondary" target="_blank">
+          <i class="fab fa-whatsapp"></i> Pesan Sekarang
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">Pelanggan Puas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Menu Pilihan</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">4.9★</span>
+          <span class="stat-label">Rating Pelanggan</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll ke bawah</span>
+      <i class="fas fa-chevron-down bounce"></i>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG KAMI ===== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-label" data-animate="fade-up">Tentang Kami</div>
+      <h2 class="section-title" data-animate="fade-up">Kisah di Balik<br/><span class="text-red">Cita Rasa Terbaik</span></h2>
+      <div class="about-grid">
+        <div class="about-img-wrap" data-animate="fade-right">
+          <img src="https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=600&h=700&fit=crop" 
+               alt="Rony's Fried Chicken Restoran" class="about-img" />
+          <div class="about-badge-float">
+            <span class="badge-year">Berdiri</span>
+            <span class="badge-num">2018</span>
+          </div>
+        </div>
+        <div class="about-content" data-animate="fade-left">
+          <p class="about-desc">
+            Rony's Fried Chicken lahir dari kecintaan mendalam terhadap cita rasa ayam goreng crispy yang autentik. 
+            Dimulai dari dapur rumahan kecil di Bandung pada 2018, kami tumbuh menjadi usaha kuliner yang dipercaya 
+            ratusan keluarga setiap harinya.
+          </p>
+          <div class="visi-misi">
+            <div class="vm-item">
+              <div class="vm-icon"><i class="fas fa-eye"></i></div>
+              <div>
+                <strong>Visi</strong>
+                <p>Menjadi pilihan utama keluarga Indonesia dalam menikmati ayam goreng crispy berkualitas dengan harga bersahabat.</p>
+              </div>
+            </div>
+            <div class="vm-item">
+              <div class="vm-icon"><i class="fas fa-bullseye"></i></div>
+              <div>
+                <strong>Misi</strong>
+                <p>Menyajikan ayam crispy dengan bahan segar, bumbu khas, pelayanan hangat, dan harga yang terjangkau setiap hari.</p>
+              </div>
+            </div>
+          </div>
+          <div class="keunggulan-grid">
+            <div class="keunggulan-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Ayam Selalu Fresh</span>
+            </div>
+            <div class="keunggulan-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Bumbu Khas Rony's</span>
+            </div>
+            <div class="keunggulan-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Harga Terjangkau</span>
+            </div>
+            <div class="keunggulan-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Cocok untuk Keluarga</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section id="menu" class="menu-section section">
+    <div class="container">
+      <div class="section-label" data-animate="fade-up">Menu Kami</div>
+      <h2 class="section-title" data-animate="fade-up">Pilihan Menu <span class="text-red">Lezat</span></h2>
+      <p class="section-sub" data-animate="fade-up">Semua menu dimasak segar setiap hari dengan bahan berkualitas terbaik</p>
+
+      <!-- Search + Filter -->
+      <div class="menu-controls" data-animate="fade-up">
+        <div class="menu-search-wrap">
+          <i class="fas fa-search"></i>
+          <input type="text" id="menu-search" placeholder="Cari menu..." autocomplete="off" />
+          <button id="menu-search-clear" title="Hapus"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="menu-filters" id="menu-filters">
+          <button class="filter-btn active" data-cat="all">Semua</button>
+          <button class="filter-btn" data-cat="paket">Paket</button>
+          <button class="filter-btn" data-cat="ayam">Ayam</button>
+          <button class="filter-btn" data-cat="burger">Burger</button>
+          <button class="filter-btn" data-cat="snack">Snack</button>
+          <button class="filter-btn" data-cat="minuman">Minuman</button>
+        </div>
+      </div>
+
+      <div class="menu-grid" id="menu-grid"></div>
+      <div class="menu-empty" id="menu-empty" style="display:none;">
+        <i class="fas fa-search"></i>
+        <p>Menu tidak ditemukan. Coba kata kunci lain.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI ===== -->
+  <section id="gallery" class="gallery-section section">
+    <div class="container">
+      <div class="section-label" data-animate="fade-up">Galeri</div>
+      <h2 class="section-title" data-animate="fade-up">Foto <span class="text-red">Menggugah Selera</span></h2>
+      <p class="section-sub" data-animate="fade-up">Lihat sendiri kelezatan menu Rony's Fried Chicken</p>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+      <img id="lightbox-img" src="" alt="" />
+      <p id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- ===== TESTIMONI ===== -->
+  <section id="testimonial" class="testimonial-section section">
+    <div class="container">
+      <div class="section-label" data-animate="fade-up">Testimoni</div>
+      <h2 class="section-title" data-animate="fade-up">Kata <span class="text-red">Pelanggan Kami</span></h2>
+      <p class="section-sub" data-animate="fade-up">Kepuasan pelanggan adalah kebanggaan kami</p>
+      <div class="testimonial-slider-wrap" data-animate="fade-up">
+        <div class="testimonial-slider" id="testimonial-slider"></div>
+        <div class="slider-dots" id="slider-dots"></div>
+        <button class="slider-btn slider-prev" id="slider-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn slider-next" id="slider-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOKASI ===== -->
+  <section id="location" class="location-section section">
+    <div class="container">
+      <div class="section-label" data-animate="fade-up">Lokasi</div>
+      <h2 class="section-title" data-animate="fade-up">Temukan <span class="text-red">Kami di Sini</span></h2>
+      <div class="location-grid">
+        <div class="location-info" data-animate="fade-right">
+          <div class="location-item">
+            <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Alamat</strong>
+              <p>Jl. Raya Padalarang No. 123<br/>Bandung, Jawa Barat 40553</p>
+            </div>
+          </div>
+          <div class="location-item">
+            <div class="loc-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Jam Operasional</strong>
+              <p>Senin – Minggu<br/>09.00 – 22.00 WIB</p>
+            </div>
+          </div>
+          <div class="location-item">
+            <div class="loc-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Telepon</strong>
+              <p><a href="tel:+628522244425">0852-2244-4425</a></p>
+            </div>
+          </div>
+          <a href="https://maps.google.com/?q=Rony%27s+Fried+Chicken" 
+             class="btn btn-primary btn-full" target="_blank">
+            <i class="fas fa-directions"></i> Petunjuk Arah
+          </a>
+        </div>
+        <div class="location-map" data-animate="fade-left">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798473498456!2d107.48994007499527!3d-6.870556493122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7b71b1f451d%3A0x5027a76e356aa80!2sPadalarang%2C%20Kabupaten%20Bandung%20Barat%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1699000000000!5m2!1sid!2sid"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Lokasi Rony's Fried Chicken"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section id="contact" class="contact-section section">
+    <div class="container">
+      <div class="section-label" data-animate="fade-up">Kontak</div>
+      <h2 class="section-title" data-animate="fade-up">Hubungi <span class="text-red">Kami</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info" data-animate="fade-right">
+          <h3>Senang Melayani Anda!</h3>
+          <p>Ada pertanyaan, saran, atau ingin pesan dalam jumlah besar? Jangan ragu untuk menghubungi kami.</p>
+          <div class="contact-links">
+            <a href="tel:+628522244425" class="contact-link">
+              <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span>Telepon</span>
+                <strong>0852-2244-4425</strong>
+              </div>
+            </a>
+            <a href="https://wa.me/628522244425" class="contact-link" target="_blank">
+              <div class="contact-link-icon wa"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <span>WhatsApp</span>
+                <strong>0852-2244-4425</strong>
+              </div>
+            </a>
+            <a href="https://instagram.com/ronysfriedchicken" class="contact-link" target="_blank">
+              <div class="contact-link-icon ig"><i class="fab fa-instagram"></i></div>
+              <div>
+                <span>Instagram</span>
+                <strong>@ronysfriedchicken</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap" data-animate="fade-left">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="c-name">Nama Lengkap</label>
+              <input type="text" id="c-name" name="name" placeholder="Masukkan nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="c-phone">Nomor WhatsApp</label>
+              <input type="tel" id="c-phone" name="phone" placeholder="08xxxxxxxxxx" required />
+            </div>
+            <div class="form-group">
+              <label for="c-subject">Subjek</label>
+              <select id="c-subject" name="subject">
+                <option value="">Pilih subjek...</option>
+                <option value="pemesanan">Pemesanan</option>
+                <option value="kerjasama">Kerjasama</option>
+                <option value="saran">Saran & Kritik</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c-message">Pesan</label>
+              <textarea id="c-message" name="message" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Kirim Pesan via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADMIN DASHBOARD ===== -->
+  <section id="admin" class="admin-section section">
+    <div class="container">
+      <div class="section-label">Dashboard Admin</div>
+      <h2 class="section-title">Kelola <span class="text-red">Konten</span></h2>
+      
+      <div id="admin-login-wrap">
+        <div class="admin-login-card">
+          <div class="admin-login-icon">🔐</div>
+          <h3>Login Admin</h3>
+          <p>Masukkan password untuk mengakses dashboard</p>
+          <div class="form-group">
+            <input type="password" id="admin-password" placeholder="Password admin" />
+          </div>
+          <button class="btn btn-primary btn-full" onclick="adminLogin()">
+            <i class="fas fa-sign-in-alt"></i> Masuk
+          </button>
+          <small class="admin-hint">Password default: <code>admin123</code></small>
+        </div>
+      </div>
+
+      <div id="admin-dashboard" style="display:none;">
+        <div class="admin-tabs">
+          <button class="admin-tab active" data-tab="tab-menu">🍗 Menu</button>
+          <button class="admin-tab" data-tab="tab-gallery">📷 Galeri</button>
+          <button class="admin-tab" data-tab="tab-testimoni">⭐ Testimoni</button>
+        </div>
+
+        <!-- Tab Menu -->
+        <div id="tab-menu" class="admin-panel active">
+          <div class="admin-panel-header">
+            <h3>Kelola Menu</h3>
+            <button class="btn btn-primary btn-sm" onclick="openMenuModal()">
+              <i class="fas fa-plus"></i> Tambah Menu
+            </button>
+          </div>
+          <div class="admin-table-wrap">
+            <table class="admin-table" id="admin-menu-table">
+              <thead>
+                <tr>
+                  <th>Foto</th><th>Nama</th><th>Kategori</th><th>Harga</th><th>Aksi</th>
+                </tr>
+              </thead>
+              <tbody id="admin-menu-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab Gallery -->
+        <div id="tab-gallery" class="admin-panel">
+          <div class="admin-panel-header">
+            <h3>Kelola Galeri</h3>
+            <button class="btn btn-primary btn-sm" onclick="openGalleryModal()">
+              <i class="fas fa-plus"></i> Tambah Foto
+            </button>
+          </div>
+          <div class="admin-gallery-grid" id="admin-gallery-grid"></div>
+        </div>
+
+        <!-- Tab Testimoni -->
+        <div id="tab-testimoni" class="admin-panel">
+          <div class="admin-panel-header">
+            <h3>Kelola Testimoni</h3>
+            <button class="btn btn-primary btn-sm" onclick="openTestimoniModal()">
+              <i class="fas fa-plus"></i> Tambah Testimoni
+            </button>
+          </div>
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr><th>Nama</th><th>Rating</th><th>Komentar</th><th>Aksi</th></tr>
+              </thead>
+              <tbody id="admin-testimoni-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="admin-logout-wrap">
+          <button class="btn btn-outline-red" onclick="adminLogout()">
+            <i class="fas fa-sign-out-alt"></i> Keluar
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODAL ===== -->
+  <div id="modal" class="modal-overlay" style="display:none;">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="modal-title">Modal</h3>
+        <button onclick="closeModal()" class="modal-close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span class="logo-icon">🍗</span>
+              <span class="logo-text">Rony's <em>Fried Chicken</em></span>
+            </div>
+            <p>Ayam crispy renyah dengan bumbu khas, selalu segar, harga terjangkau. Pilihan cerdas untuk keluarga Indonesia.</p>
+            <div class="footer-social">
+              <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/ronysfriedchicken" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/628522244425" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#about">Tentang Kami</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Galeri</a></li>
+              <li><a href="#testimonial">Testimoni</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact-info">
+            <h4>Kontak</h4>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Jl. Raya Padalarang No. 123, Bandung</li>
+              <li><i class="fas fa-phone"></i> <a href="tel:+628522244425">0852-2244-4425</a></li>
+              <li><i class="fas fa-clock"></i> Buka Setiap Hari 09.00 – 22.00</li>
+              <li><i class="fas fa-envelope"></i> info@ronysfriedchicken.id</li>
+            </ul>
+          </div>
+          <div class="footer-order">
+            <h4>Pesan Sekarang</h4>
+            <p>Hubungi kami langsung via WhatsApp untuk pemesanan cepat!</p>
+            <a href="https://wa.me/628522244425?text=Halo%20Rony's%2C%20saya%20mau%20pesan..." 
+               class="btn btn-primary" target="_blank">
+              <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footer-year"></span> Rony's Fried Chicken. All rights reserved. Made with ❤️ in Bandung.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

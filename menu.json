@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Paket Ayam Crispy + Nasi",
+    "category": "paket",
+    "price": 18000,
+    "description": "1 potong ayam crispy renyah disajikan dengan nasi putih hangat. Pilih bagian: paha, dada, atau sayap.",
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=300&fit=crop",
+    "badge": "Terlaris",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Paket Ayam Crispy + Es Teh",
+    "category": "paket",
+    "price": 15000,
+    "description": "1 potong ayam crispy renyah dipadu es teh manis segar. Combo hemat untuk makan siang!",
+    "image": "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?w=400&h=300&fit=crop",
+    "badge": "Hemat",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Ayam Crispy Satuan",
+    "category": "ayam",
+    "price": 12000,
+    "description": "Ayam goreng crispy dengan bumbu rempah khas Rony's. Renyah di luar, juicy di dalam.",
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=400&h=300&fit=crop",
+    "badge": "",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Paket Keluarga",
+    "category": "paket",
+    "price": 85000,
+    "description": "6 potong ayam crispy + 4 nasi + 2 kentang goreng + 4 es teh. Pas untuk makan bersama keluarga!",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
+    "badge": "Favorit",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Kentang Goreng",
+    "category": "snack",
+    "price": 8000,
+    "description": "Kentang goreng renyah dengan taburan bumbu spesial. Cocok jadi pelengkap atau camilan.",
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop",
+    "badge": "",
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Burger Ayam",
+    "category": "burger",
+    "price": 16000,
+    "description": "Burger dengan patty ayam crispy, selada segar, tomat, dan saus spesial dalam roti sesame bun.",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
+    "badge": "Baru",
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Es Teh Manis",
+    "category": "minuman",
+    "price": 5000,
+    "description": "Teh manis segar dengan es batu yang bikin dahaga hilang seketika.",
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop",
+    "badge": "",
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "Es Jeruk",
+    "category": "minuman",
+    "price": 7000,
+    "description": "Jeruk peras segar dengan es batu, manis dan menyegarkan. Vitamin C alami!",
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=300&fit=crop",
+    "badge": "",
+    "available": true
+  },
+  {
+    "id": 9,
+    "name": "Paket Duo Crispy",
+    "category": "paket",
+    "price": 32000,
+    "description": "2 potong ayam crispy + 2 nasi putih + 2 es teh. Cocok untuk makan berdua yang romantis!",
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=300&fit=crop",
+    "badge": "Promo",
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "Nasi Putih",
+    "category": "snack",
+    "price": 4000,
+    "description": "Nasi putih pulen hangat, pelengkap sempurna untuk ayam crispy Rony's.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+    "badge": "",
+    "available": true
+  }
+]

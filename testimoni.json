@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Siti Rahayu",
+    "avatar": "SR",
+    "rating": 5,
+    "comment": "Ayamnya beneran crispy banget! Bumbunya meresap sampai ke dalam. Harganya juga ramah di kantong, cocok banget buat makan keluarga. Pasti balik lagi!",
+    "date": "2025-05-15",
+    "location": "Bandung"
+  },
+  {
+    "id": 2,
+    "name": "Budi Santoso",
+    "avatar": "BS",
+    "rating": 5,
+    "comment": "Paket keluarga recommended banget! Porsinya besar, harga terjangkau, dan yang pasti ayamnya selalu fresh. Sudah jadi langganan tetap keluarga saya.",
+    "date": "2025-05-20",
+    "location": "Bandung"
+  },
+  {
+    "id": 3,
+    "name": "Dewi Anggraini",
+    "avatar": "DA",
+    "rating": 5,
+    "comment": "Burger ayamnya juara! Renyah, sausnya enak, dan harganya murah meriah. Pelayanan juga ramah dan cepat. 5 bintang layak banget!",
+    "date": "2025-05-22",
+    "location": "Cimahi"
+  },
+  {
+    "id": 4,
+    "name": "Ahmad Fauzi",
+    "avatar": "AF",
+    "rating": 4,
+    "comment": "Rasanya konsisten setiap kali ke sini. Ayam crispy-nya memang beda dari yang lain, ada cita rasa khasnya. Kentang gorengnya juga enak, minta lagi!",
+    "date": "2025-06-01",
+    "location": "Bandung"
+  },
+  {
+    "id": 5,
+    "name": "Rina Wulandari",
+    "avatar": "RW",
+    "rating": 5,
+    "comment": "Favorit anak-anak saya! Setiap weekend pasti request Rony's. Ayamnya tidak terlalu berminyak, renyahnya awet lama. Recommended untuk keluarga!",
+    "date": "2025-06-05",
+    "location": "Padalarang"
+  },
+  {
+    "id": 6,
+    "name": "Hendro Pratama",
+    "avatar": "HP",
+    "rating": 5,
+    "comment": "Harga bersahabat tapi kualitas tidak murahan. Paket duo crispy jadi pilihan saya dan istri. Selalu puas setiap makan di sini!",
+    "date": "2025-06-08",
+    "location": "Bandung"
+  }
+]
